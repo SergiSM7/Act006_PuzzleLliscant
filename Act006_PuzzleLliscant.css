@@ -1,0 +1,43 @@
+body{
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 10pt;
+}
+
+#segundos {
+	display:none;
+	position:absolute;
+	left: 600px;
+	top: 30px;
+	width: 160px;
+	height: 60px;
+	border: 1px solid #CCC;
+	background-color: RGB(245,245,245);
+	color: RGB(50,50,50);
+	font-size: 45px;
+	text-align:right;
+	padding:4px;
+}
+
+table, td {
+	border-collapse: collapse;
+	border: 1px solid #CCC;
+}
+
+table {
+	background-image: url('ginebro.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+td {
+	width: 60px;
+	cursor: pointer;
+	text-align: center;
+}
+
+#cos {
+	position:absolute;
+	top: 100px;
+	width: 700px;
+	height: 600px;
+}
