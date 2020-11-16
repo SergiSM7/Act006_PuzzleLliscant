@@ -11,3 +11,8 @@ for (let i=1; i<3; i++) {
         cella.innerHTML=i+ ", "+j;
     }
 }
+
+
+function canvia (celaFila, celaColumna) {
+    alert("Has pitjat sobre la cel·la " + celaFila + ", " + celaColumna);
+};
